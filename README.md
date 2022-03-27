@@ -15,7 +15,7 @@
 
 
 ## Description:
-[Tech Blog Website]()
+[Tech Blog Heroku Click Here](https://tranquil-bayou-09145.herokuapp.com/)
 
 This is Blog site that you are able to post content and comment on content using a username and pw. You are able to edit your own content that you creat as well as delete it.  Each post has a time stamp on it to show when it was made. You have the ability to read any post even if you dont have a username and password.  This site is set up to expire your session after one min of logging in just for testing purposes. We can change that at any time.
 
