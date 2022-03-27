@@ -1,5 +1,6 @@
 * {
     box-sizing: border-box;
+   
   }
   
   body, html {
@@ -12,7 +13,7 @@
   
   a {
     text-decoration: none;
-    color: #225ca3;
+    color:black;
     font-weight: bold;
     transition: color .1s;
   }
@@ -22,7 +23,7 @@
   }
   
   button {
-    background-color: #225ca3;
+    background-color: black;
     border: 0;
     padding: 1%;
     color: white;
@@ -67,11 +68,11 @@
   
   .wrapper {
     width: 100%;
-    min-height: 100%;
-    max-width: 1200px;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
+    background-color: rgb(214, 208, 208);
+   
   }
   
   header {
@@ -80,10 +81,16 @@
     justify-content: space-between;
     align-items: center;
     padding: 0 1%;
+    background-color: rgb(182, 8, 8);
+    border-radius: 20px;
+    border: black solid 5px;
+    margin: 10px
+    
   }
   
   header h1 {
-    font-size: 1em;
+    font-size: 3em;
+    color: #fff5eb;
   }
   
   main {
@@ -97,7 +104,7 @@
     padding: 0;
     cursor: pointer;
     text-decoration: none;
-    color: #225ca3;
+    color:black;
     font-size: 100%;
     font-weight: bold;
     transition: color .1s;
@@ -120,7 +127,10 @@
   .post {
     margin-bottom: 2%;
     line-height: 150%;
-    border: #d41414 solid 1px;
+    border: black solid 5px;
+    border-radius: 20px;
+    padding: 5px;
+    background-color:#d41414;
   }
   
   .post .title span {
@@ -134,40 +144,38 @@
     margin: -1.5% 0 2% 0;
   }
   
-  .upvote-btn {
-    background-color: #197d0f;
-    transition: background-color .1s;
-  }
-  
-  .upvote-btn:hover {
-    background-color: #1f9c13;
-  }
   
   .comment-form {
     margin-bottom: 5%;
+    border-radius: 15px;
   }
   
   .comment {
     padding: 1%;
     margin-bottom: 1%;
+    border:black solid 1px;
+    border-radius: 20px;
   }
   
   .comment:nth-child(odd) {
-    background-color: #fff5eb;
+    background-color: #ec9d93;
   }
   
   .comment .meta {
     font-size: 90%;
     margin-bottom: .5%;
     opacity: .6;
+    color: black;
   }
   
   .new-post-form input {
     width: 300px;
+    border: black solid 2px;
   }
   
   .edit-post-form {
     margin-bottom: 5%;
+    
   }
   
   footer {
@@ -182,8 +190,48 @@
     border: none;
     padding: 0;
     text-decoration: none;
-    color: #225ca3;
+    color:#ececec;
     font-weight: bold;
     transition: color .1s;
     margin-left: 16px;
+    font-size: x-large;
+    text-decoration: underline
   }
+  .content{
+    background: none;
+    border: none;
+    padding: 0;
+    text-decoration: none;
+    color:#ececec;
+    font-weight: bold;
+    transition: color .1s;
+    margin-left: 16px;
+    font-size:large;
+  }
+  .meta{
+    background: none;
+    border: none;
+    padding: 0;
+    text-decoration: none;
+    color:#ececec;
+    font-weight: bold;
+    transition: color .1s;
+    margin-left: 16px;
+    font-size:small;
+  }
+
+.login-form{
+  border: black solid 2px;
+  text-align: center;
+  border-radius: 20px;
+  padding: 0px;
+  margin:50px
+  
+}
+.signup-form{
+  border: black solid 2px;
+  text-align: center;
+  border-radius: 20px;
+  margin: 50px;
+
+}
